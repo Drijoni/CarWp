@@ -1,1 +1,1 @@
-CarWP - A Custom Responsive WordPress Theme
+CarWP - Custom Responsive WordPress theme
