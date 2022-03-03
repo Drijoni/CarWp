@@ -1,2 +1,1 @@
-Car Wp
-Customizable and Responsive WordPress theme for Car / Auto Themed Websites
+Car Wp - Customizable and Responsive WordPress theme for Car / Auto Themed Websites
