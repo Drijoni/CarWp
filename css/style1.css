@@ -1,34 +1,40 @@
 /* Newsletter */
 
 .newsletter {
-padding: 80px 0;
-background: #f2f2f2;
+  padding: 80px 0;
+  background: #f2f2f2;
 }
 
 .newsletter .content {
-max-width: 650px;
-margin: 0 auto;
-text-align: center;
-position: relative;
-z-index: 2; }
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
 .newsletter .content h2 {
-color: #243c4f;
-margin-bottom: 40px; }
+  color: #243c4f;
+  margin-bottom: 40px;
+}
+
 .newsletter .content .form-control {
-height: 50px;
-border-color: #ffffff;
-border-radius:0;
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
 }
+
 .newsletter .content.form-control:focus {
-box-shadow: none;
-border: 2px solid #243c4f;
+  box-shadow: none;
+  border: 2px solid #243c4f;
 }
+
 .newsletter .content .btn {
-min-height: 50px; 
-border-radius:0;
-background: #243c4f;
-color: #fff;
-font-weight:600;
+  min-height: 50px;
+  border-radius: 0;
+  background: #243c4f;
+  color: #fff;
+  font-weight: 600;
 }
 
 
@@ -40,7 +46,7 @@ font-weight:600;
 
 
 #the_price {
-font-size: 30px;
+  font-size: 30px;
   border-bottom: 2px solid black;
 }
 
@@ -79,10 +85,12 @@ font-size: 30px;
   background: #55ACEE;
   color: white;
 }
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
+
 .fa-google {
   background: #dd4b39;
   color: white;
@@ -91,24 +99,22 @@ font-size: 30px;
 
 
 
-/* Archive Cars.php - Card */  
+/* Archive Cars.php - Card */
 
 
 
-.scard:hover{ 
-transition: 0.5s;
-box-shadow: 1px 0px 10px black;
+.scard:hover {
+  transition: 0.5s;
+  transform:translateY(-5px);
 }
 
 
 
 
 /* 404 Page  */
-
-
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -127,8 +133,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .notfound {
@@ -139,7 +145,7 @@ body {
   text-align: center;
   background: #fff;
   -webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
 }
 
 .notfound .notfound-404 {
@@ -153,8 +159,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 165px;
   font-weight: 700;
   margin: 0px;
@@ -221,8 +227,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-      -ms-transform: translate(-50%, -50%) rotate(-45deg);
-          transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
   margin-left: -3px;
 }
 
@@ -283,20 +289,18 @@ body {
 /* Index.php */
 
 
-    body, html {
-    height: 100%;
+body, html {
+  height: 100%;
 
 }
 
 /* The hero image */
-  
-
-  
-.hero{
 
 
- /* Set a specific height */
-  height:90%;
+
+.hero {
+  /* Set a specific height */
+  height: 90%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -316,61 +320,55 @@ body {
 }
 
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
 
-.image{
-  width:400px;
+.image {
+  width: 400px;
   height: 250px;
 }
 
 
 
 
-.card-text{
+.card-text {
   text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 
-.karta{
-  margin:5px;
+.karta {
+  margin: 5px;
 }
 
 
 
 /* Navbar  */
-   
-    .bg{
- background-color: transparent;
 
- 
+.bg {
+  background-color: transparent;
+
+
 }
+
 .card-overlay {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.menu-item{
+.menu-item {
   list-style: none;
 
 }
 
 
-
-/* Single post  */
-
-
-
-
-
 /*  Card   */
 
-  
-  .card{
-    margin-bottom: 20px;
+
+.card {
+  margin-bottom: 20px;
 }
 
 
